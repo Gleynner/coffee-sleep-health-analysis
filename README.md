@@ -94,3 +94,8 @@ O pré-processamento (`OneHotEncoder` + `StandardScaler`) foi encapsulado em um 
 - **LightGBM** / **XGBoost** — modelos de gradient boosting
 - **Pickle** — serialização do modelo final
 
+
+<br>
+
+> [Veja o notebook para detalhes da análise.](https://github.com/Gleynner/coffee-sleep-health-analysis/blob/main/coffee_sleep_health_analysis.ipynb)
+
