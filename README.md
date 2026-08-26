@@ -9,7 +9,7 @@
 
 ## 📌 Sobre o projeto
 
-Este projeto simula uma demanda real de negócio: a empresa precisa entender como o consumo de café se relaciona com a qualidade do sono de seus clientes, a fim de orientar produtos, campanhas e conteúdos de saúde e bem-estar.
+Este projeto simula uma demanda real de negócio: a empresa **H&LA** precisa entender como o consumo de café se relaciona com a qualidade do sono de seus clientes, a fim de orientar produtos, campanhas e conteúdos de saúde e bem-estar.
 
 O trabalho percorre o ciclo completo de um projeto de Ciência de Dados — da limpeza e exploração dos dados até a modelagem preditiva — com foco constante em **transformar resultados estatísticos em decisões de negócio acionáveis**.
 
