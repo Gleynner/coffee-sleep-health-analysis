@@ -4,6 +4,13 @@
 
 **Análise exploratória, geração de insights e modelagem preditiva sobre a relação entre consumo de café, estresse e qualidade do sono**
 
+
+<p align="center">
+  <img src="assets/coffee_health.png" width="670"/>
+</p>
+
+
+
 </div>
 
 
