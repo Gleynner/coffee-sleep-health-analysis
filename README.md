@@ -1,16 +1,14 @@
-# Coffee, Sleep & Health: Exploratory Analysis and Predictive Modeling
+<div align="center">
 
+# ☕ Café, Estresse e Sono: Da Análise de Dados à Recomendação de Negócio
 
-## Contextualização:
+**Análise exploratória, geração de insights e modelagem preditiva sobre a relação entre consumo de café, estresse e qualidade do sono**
 
-O conjunto de dados GlobalCoffeeHealth contém 10.000 registros sintéticos que refletem padrões do mundo real relacionados ao consumo de café, comportamento do sono e condições de saúde em 20 países. Ele inclui informações demográficas, consumo diário de café, níveis de cafeína, duração e qualidade do sono, IMC, frequência cardíaca, estresse, atividade física, problemas de saúde, ocupação, tabagismo e consumo de álcool.
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-black?style=flat&logo=pandas)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-018574?style=flat)
+![XGBoost](https://img.shields.io/badge/XGBoost-EB5E28?style=flat)
+![Status](https://img.shields.io/badge/status-concluído-brightgreen)
 
-O conjunto de dados representa correlações realistas observadas em pesquisas — como o impacto da cafeína sobre o sono, o estresse e a saúde —, tornando-o adequado para análises estatísticas, modelagem preditiva e estudos relacionados ao estilo de vida e bem-estar.
-
-
-## Objetivo do projeto:
-
-Uma empresa contratou você para analisar a relação entre o consumo de café e a qualidade do sono, identificando padrões e possíveis fatores associados que possam explicar variações na qualidade do sono dos clientes, por meio de técnicas de análise exploratória e modelagem preditiva.
-
-
-Link projeto original: https://www.kaggle.com/datasets/uom190346a/global-coffee-health-dataset
+</div>
