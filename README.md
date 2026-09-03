@@ -106,6 +106,19 @@ Além de avaliar o desempenho preditivo, buscamos entender *como* o modelo toma 
 | **Comunicação transparente** sobre correlação vs. causalidade, reforçando busca por acompanhamento profissional | Limitações estatísticas e de dataset |
 
 
+## 💼 Recomendações para o negócio
+
+| Ação | Baseada em |
+|---|---|
+| **Priorizar programas de gestão de estresse** (mindfulness, atividade física, terapia digital) na proposta de valor | Estresse é o fator mais associado ao sono na EDA **e o 2º maior fator no modelo (~30,3% do impacto SHAP)** |
+| **Conteúdo educativo sobre o ciclo estresse → café → sono ruim**, ajudando o cliente a quebrar o padrão | Associação entre estresse e maior consumo de café |
+| **Alertas de consumo de cafeína** para clientes acima de 400 mg/dia, como ação complementar (não prioritária) | Relação cafeína × horas de sono na EDA — *nota: a interpretabilidade do modelo (Seção 4) sugere que esse efeito é, em parte, mediado pelo estresse, já que `Coffee_Intake` tem contribuição residual (0,50%) uma vez controladas as demais variáveis* |
+| **Segmentação de campanhas por faixa etária** (foco em 18–69 anos) | Efeito mais evidente nessa faixa etária |
+| **Score preditivo de risco de sono ruim**, com ressalva de dependência de `Sleep_Hours` | Modelo de Regressão Logística — *recomenda-se reavaliar a viabilidade em produção diante da possível dependência estrutural dessa variável (Seção de Limitações)* |
+| **Comunicação transparente** sobre correlação vs. causalidade, reforçando busca por acompanhamento profissional | Limitações estatísticas e de dataset |
+
+
+
 ## 🧠 Skills demonstradas
 
 `Análise Exploratória de Dados (EDA)` `Estatística Descritiva` `Visualização de Dados` `Engenharia de Features` `Machine Learning (Classificação)` `Validação Cruzada` `Pipelines com Scikit-learn` `Diagnóstico de Data Leakage` `Interpretabilidade de Modelos (SHAP)` `Storytelling com Dados` `Tradução de Resultados Técnicos em Recomendações de Negócio`
@@ -117,6 +130,7 @@ Além de avaliar o desempenho preditivo, buscamos entender *como* o modelo toma 
 - **Matplotlib** / **Seaborn** — visualização de dados
 - **Scikit-learn** — pré-processamento, pipelines, validação cruzada, Regressão Logística
 - **LightGBM** / **XGBoost** — modelos de gradient boosting
+- **SHAP** — Interpretabilidade de modelos
 - **Pickle** — serialização do modelo final
 
 
