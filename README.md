@@ -108,7 +108,7 @@ Além de avaliar o desempenho preditivo, buscamos entender *como* o modelo toma 
 
 ## 🧠 Skills demonstradas
 
-`Análise Exploratória de Dados (EDA)` `Estatística Descritiva` `Visualização de Dados` `Engenharia de Features` `Machine Learning (Classificação)` `Validação Cruzada` `Pipelines com Scikit-learn` `Diagnóstico de Data Leakage` `Storytelling com Dados` `Tradução de Resultados Técnicos em Recomendações de Negócio`
+`Análise Exploratória de Dados (EDA)` `Estatística Descritiva` `Visualização de Dados` `Engenharia de Features` `Machine Learning (Classificação)` `Validação Cruzada` `Pipelines com Scikit-learn` `Diagnóstico de Data Leakage` `Interpretabilidade de Modelos (SHAP)` `Storytelling com Dados` `Tradução de Resultados Técnicos em Recomendações de Negócio`
 
 ## 🛠️ Tecnologias utilizadas
 
