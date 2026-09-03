@@ -76,6 +76,24 @@ O notebook está estruturado em três partes, seguindo o fluxo padrão de um pro
 O pré-processamento (`OneHotEncoder` + `StandardScaler`) foi encapsulado em um `Pipeline`/`ColumnTransformer`, ajustado somente sobre os dados de treino em cada fold da validação cruzada estratificada (`StratifiedKFold`) — prática que evita vazamento de informação entre treino e teste.
 
 
+## 🔍 Interpretabilidade do Modelo
+
+Além de avaliar o desempenho preditivo, buscamos entender *como* o modelo toma suas decisões. Para isso, aplicamos duas abordagens complementares sobre a Regressão Logística: análise dos coeficientes por classe e valores SHAP (SHapley Additive exPlanations).
+
+| Variável | Impacto no modelo (SHAP) |
+|---|:---:|
+| `Sleep_Hours` | **64,82%** |
+| Nível de Estresse | ~30,3% |
+| `Coffee_Intake` | 0,50% |
+| Demais variáveis (idade, IMC, atividade física, álcool, tabagismo) | contribuição residual |
+
+`Sleep_Hours` concentra sozinha quase dois terços do impacto total nas previsões — resultado consistente com os coeficientes do modelo, que também destacam essa variável como a de maior peso entre as classes de qualidade do sono. O nível de estresse aparece como segundo fator mais relevante, enquanto o consumo de café apresenta contribuição residual dentro da estrutura deste modelo.
+
+**Implicação para o negócio:** os resultados reforçam que orientações a clientes devem priorizar sono adequado e gerenciamento de estresse, e não apenas a redução do consumo de café — sem, no entanto, estabelecer causalidade, já que o modelo reflete comportamento preditivo, não relações causais.
+
+> 💡 A forte concentração de impacto em `Sleep_Hours` (64,82%) é também um indício relevante ao avaliar a robustez do modelo: o comportamento preditivo depende fortemente de uma única variável altamente correlacionada com o próprio alvo — um ponto que reforça a importância de investigar possíveis vieses estruturais nos dados.
+
+
 ## 💼 Recomendações para o negócio
 
 | Ação | Baseada em |
