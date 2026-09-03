@@ -94,19 +94,7 @@ Além de avaliar o desempenho preditivo, buscamos entender *como* o modelo toma 
 > 💡 A forte concentração de impacto em `Sleep_Hours` (64,82%) é também um indício relevante ao avaliar a robustez do modelo: o comportamento preditivo depende fortemente de uma única variável altamente correlacionada com o próprio alvo — um ponto que reforça a importância de investigar possíveis vieses estruturais nos dados.
 
 
-## 💼 Recomendações para o negócio  1
-
-| Ação | Baseada em |
-|---|---|
-| **Alertas de consumo de cafeína** para clientes acima de 400 mg/dia, sugerindo redução gradual | Relação cafeína × horas de sono |
-| **Priorizar programas de gestão de estresse** (mindfulness, atividade física, terapia digital) na proposta de valor | Estresse é o fator mais associado ao sono |
-| **Conteúdo educativo sobre o ciclo estresse → café → sono ruim**, ajudando o cliente a quebrar o padrão | Associação entre estresse e maior consumo de café |
-| **Segmentação de campanhas por faixa etária** (foco em 18–69 anos) | Efeito mais evidente nessa faixa etária |
-| **Score preditivo de risco de sono ruim** integrado a painel/app, para ação preventiva | Modelo de Regressão Logística |
-| **Comunicação transparente** sobre correlação vs. causalidade, reforçando busca por acompanhamento profissional | Limitações estatísticas e de dataset |
-
-
-## 💼 Recomendações para o negócio  2
+## 💼 Recomendações para o negócio 
 
 | Ação | Baseada em |
 |---|---|
