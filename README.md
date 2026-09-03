@@ -94,7 +94,7 @@ Além de avaliar o desempenho preditivo, buscamos entender *como* o modelo toma 
 > 💡 A forte concentração de impacto em `Sleep_Hours` (64,82%) é também um indício relevante ao avaliar a robustez do modelo: o comportamento preditivo depende fortemente de uma única variável altamente correlacionada com o próprio alvo — um ponto que reforça a importância de investigar possíveis vieses estruturais nos dados.
 
 
-## 💼 Recomendações para o negócio
+## 💼 Recomendações para o negócio  1
 
 | Ação | Baseada em |
 |---|---|
@@ -106,7 +106,7 @@ Além de avaliar o desempenho preditivo, buscamos entender *como* o modelo toma 
 | **Comunicação transparente** sobre correlação vs. causalidade, reforçando busca por acompanhamento profissional | Limitações estatísticas e de dataset |
 
 
-## 💼 Recomendações para o negócio
+## 💼 Recomendações para o negócio  2
 
 | Ação | Baseada em |
 |---|---|
